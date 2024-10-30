@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0e0e0;
+}
+
+.login-container {
+    text-align: center;
+    padding: 25px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 320px;
+}
+
+.login-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input {
+    margin-bottom: 12px;
+}
+
+#login-button {
+    background-color: yellow;
+    color: black;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page 2</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="login-container">
+        <img src="gift.gif" alt="gift" class="login-image">
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            
+            <button type="button" id="login-button">Login</button>
+        </form>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
